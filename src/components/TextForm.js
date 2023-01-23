@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 export default function TextForm(props) {
   const [text, setText] = useState("Enter text here");
-  let words = [];
 
   const handleUpCase = () => {
     let newText = text.toUpperCase();
@@ -23,7 +22,6 @@ export default function TextForm(props) {
   };
 
   const handleOnChange = (event) => {
-    words.push(event.target.value);
     setText(event.target.value);
   };
   // const handleUndo = () => {

@@ -40,10 +40,7 @@ export default function Navbar(props) {
               placeholder="Search"
               aria-label="Search"
             />
-            <button className="btn btn-outline-primary" type="submit">
-              Search
-            </button>
-          </form> */}
+           */}
           <div
             className={`form-check form-switch text-${
               props.mode === "light" ? "dark" : "light"

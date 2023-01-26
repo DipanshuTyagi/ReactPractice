@@ -21,7 +21,7 @@ function App() {
       <Navbar title="TextUtile" mode={mode} enableDarkMode={enableDarkMode} />
       <div className="container my-3">
         {/* <About /> */}
-        <TextForm heading="Enter the Text" />
+        <TextForm heading="Enter the Text" mode={mode} />
       </div>
     </>
   );
